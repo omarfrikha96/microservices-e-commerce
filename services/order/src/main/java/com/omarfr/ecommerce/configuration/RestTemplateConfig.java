@@ -1,4 +1,4 @@
-package com.omarfr.ecommerce.config;
+package com.omarfr.ecommerce.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
