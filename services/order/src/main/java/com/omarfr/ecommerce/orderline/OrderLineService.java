@@ -13,9 +13,9 @@ public class OrderLineService {
     private final OrderLineRepository repository;
     private final OrderLineMapper mapper;
 
-    public Integer saveOrderLine(OrderLineRequest request) {
+    public void saveOrderLine(OrderLineRequest request) {
         var order = mapper.toOrderLine(request);
-        return repository.save(order).getId();
+        repository.save(order);
     }
 
     public List<OrderLineResponse> findAllByOrderId(Integer orderId) {

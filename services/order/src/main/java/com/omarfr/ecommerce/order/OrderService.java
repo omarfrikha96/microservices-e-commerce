@@ -1,9 +1,9 @@
 package com.omarfr.ecommerce.order;
 
 
+import com.omarfr.ecommerce.kafka.OrderConfirmation;
 import com.omarfr.ecommerce.customer.CustomerClient;
 import com.omarfr.ecommerce.exception.BusinessException;
-import com.omarfr.ecommerce.kafka.OrderConfirmation;
 import com.omarfr.ecommerce.kafka.OrderProducer;
 import com.omarfr.ecommerce.orderline.OrderLineRequest;
 import com.omarfr.ecommerce.orderline.OrderLineService;
